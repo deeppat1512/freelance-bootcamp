@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Freelance Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">My Freelance Business</a>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to My Freelance Business</h1>
+            <p>I help businesses build their online presence
+               with websites, AI tools, and digital marketing.</p>
+            <a href="#services" class="cta-button">Explore My Services</a>
+        </section>
+
+        <section id="services">
+            
+<section id="services">
+    <h2>My Services</h2>
+
+    <p>Practical digital solutions to help businesses grow.</p>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <h3>Website Development</h3>
+            <p>I build clean, mobile-friendly websites for businesses.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Generative AI</h3>
+            <p>I use AI tools to support content creation and business workflows.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Digital Marketing</h3>
+            <p>I help businesses plan campaigns and generate leads online.</p>
+        </div>
+
+    </<div id="dynamicServices">
+    <h3>More Services</h3>
+    <p id="serviceCount"></p>
+
+    <button type="button" id="toggleServicesButton">
+        Hide Services
+    </button>
+
+    <ul id="serviceList"></ul>
+</div>
+</section>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+    <p>I am learning practical digital skills to help businesses
+       grow and to build my freelance career.</p>
+    <p id="customerCount"></p>
+    <p id="featuredCustomer"></p>
+    <button type="button" id="nextCustomerButton">
+    Show Next Customer
+</button>
+    </section>
+            
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Interested in working together? Send me a message.</p>
+
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="email">Your Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="service">Service Required</label>
+            <select id="service" name="service" required>
+                <option value="">Choose a service</option>
+                <option value="Website Development">Website Development</option>
+                <option value="Generative AI">Generative AI</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="details">Tell Me About Your Project</label>
+            <textarea
+                id="details"
+                name="details"
+                rows="4"
+                placeholder="Describe your project..."
+                required
+            ></textarea>
+        </div>
+
+        <button type="submit">Submit Enquiry</button>
+        <p id="formMessage" role="status" aria-live="polite"></p>
+    </form>
+</section>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Interested in working together? Get in touch.</p>
+            <button id="contactButton">Get in Touch</button>
+            <p id="message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Freelance Business. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
