@@ -247,3 +247,31 @@ footer p {
 #serviceList li:last-child {
     margin-bottom: 0;
 }
+
+/* Portfolio section */
+#portfolio {
+    background-color: #f8f5ff;
+    border-radius: 12px;
+}
+
+#portfolio h2 {
+    color: #32145c;
+    text-align: center;
+}
+
+#portfolio > p {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+}
+
+#portfolio .service-card {
+    border-top: 4px solid #c9a34a;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#portfolio .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(50, 20, 92, 0.12);
+}
